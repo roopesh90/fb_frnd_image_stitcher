@@ -59,11 +59,11 @@ def get_url_data(url, params):
 	except ValueError:
 		data = data.decode('utf8')
 	except urllib2.HTTPError, e:
-		data =  {'error': "Oops, timed out? HTTPError :"+str(e)}
+		data =  {'error': "\n\nOops, timed out? HTTPError :"+str(e)+"\nFacebook Might be down right Now."}
 	except urllib2.URLError, e:
-		data =  {'error': "Oops, timed out? URLError :"+str(e)}
+		data =  {'error': "\n\nOops, timed out? URLError :"+str(e)+"\nYour internet connection looks Wonky!!. Try again Later.."}
 	except socket.timeout:
-		data = {'error': "Timed out! socket.timeout after "+ default_timeout + "seconds\n" +str(e)}
+		data = {'error': "\n\nTimed out! socket.timeout after "+ default_timeout + "seconds.\nYour connection is slow.\n"}
 	except Exception, e:
 		data = {'error':"Something strange while html parse... @ \n"+url+"\n Error = "+str(e)}
 		#error_log.append( str(jabber)+"\n Something strange while html parse... @ "+"\n"+url+"\n"+str(e)+"\n")
