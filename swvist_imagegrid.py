@@ -71,9 +71,11 @@ for i in range(ROW_IMAGE_COUNT):
 	for j in range(COLUMN_IMAGE_COUNT):
 		counter += 1
 		if counter < piccount :
-			print counter
+			#print counter
+			print '.',
 			out.paste(Image.open(piclist[counter]),(j*IMAGE_DIMENSION["width"],i*IMAGE_DIMENSION["height"]))
 		else:
+			print '.'
 			break
 #Saves the image in IMAGES_DIRECTORY with name output
 out.save(ROOT_DIRECTORY+"output.jpeg","JPEG")
