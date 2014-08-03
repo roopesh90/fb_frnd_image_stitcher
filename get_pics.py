@@ -1,5 +1,5 @@
-# FB Frnds Image 
-#Copyright (c) Dr.DmC <roopesh90nair@gmail.com>, Roopesh Nair
+# FB Frnds Image Extractor
+#Copyright (c) Roopesh Nair, <roopesh90nair@live.com>, 
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy of
 #this software and associated documentation files (the "Software"), to deal in
@@ -19,12 +19,10 @@
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #SOFTWARE.
 
-# Change the values according to your requirement
 # Get images from Facebook
-# Get access token from here
+# Get your access token and fb user id from here
 # https://developers.facebook.com/tools/explorer/?method=GET&path=me/friends
 # do accept the permission, this a test app from FB fro developers,
-# if you do not approve, get in touch @ roopesh90nair@live.com
 
 #You need not modify anything below this line.
 import time
@@ -95,9 +93,7 @@ def get_FB_frn_list( uid, method, format1, suppress_http_code, access_token, pag
 		return data
 	
 	
-def get_FB_frn_img(uid, img_width,img_height):
-	##sample url  = graph.facebook.com/500912531/picture?width=50&height=50
-	
+def get_FB_frn_img(uid, img_width,img_height):	
 	img_url = "http://graph.facebook.com/"+uid+"/picture?width="+img_width+"&height="+ img_height
 	urllib.urlretrieve(img_url, "images/"+uid+".jpg")
 
@@ -123,7 +119,7 @@ if gc.isenabled() == False:
 	print("** Developer note: Auto-garbage collection has been eneabled? =>" + str(gc.isenabled()))
 	print("\n")
 	
-print("\n## \n## FB Frnds Image Stitcher\n## \n## Copyright (c) @roopesh90 <roopesh90nair@gmail.com>, Roopesh Nair\n##")
+print("\n## \n## FB Frnds Image Stitcher\n## \n## Copyright (c) Roopesh Nair, <roopesh90nair@live.com>\n##")
 print("\n\n\t Fetching friends data from FB\n\t This might take a while\n\n\t Depending on the number \n\t of friends you have and \n\t your internet speed.")
 
 while continue_2_page:
