@@ -17,7 +17,13 @@ IMAGES_ROOT = PATH(ROOT, 'images/')
 
 class User:
     def __init__(self):
+        ## To be adjusted by user
+        self.fb_uid = "YOUR_FB_ID"
+        self.fb_access_token = "YOUR_FB_ACCESS_TOKEN"
+        
+        #You need not modify anything below this line.
         self.agent = "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31"
-        self.fb_uid = "fb_user_id"
-        self.fb_access_token = "fb_acces_token"
         self.images_folder_path=IMAGES_ROOT
+        self.root_folder_path=PATH(ROOT, '')
+        
+        
