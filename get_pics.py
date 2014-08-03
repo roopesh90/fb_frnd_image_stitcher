@@ -158,4 +158,4 @@ hostname = os.popen("hostname").read()
 if hostname == "":
 	hostname = "the system\n"
 print("** These will be removed by the OS automatically later \n** or when " + hostname + "** is switched off")
-print("\n\n Starting ImageStitcher script by @swvist")
+print("\n\n Starting Imagegrid generator script by @swvist")

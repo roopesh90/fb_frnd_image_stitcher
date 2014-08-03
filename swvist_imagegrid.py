@@ -80,4 +80,4 @@ for i in range(ROW_IMAGE_COUNT):
 #Saves the image in IMAGES_DIRECTORY with name output
 out.save(ROOT_DIRECTORY+"output.jpeg","JPEG")
 
-print(str(piccount)+" Images Stitched")
+print(str(piccount)+" Images Stitched, imagegrid generated..")

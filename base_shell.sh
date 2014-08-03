@@ -3,7 +3,7 @@ clear
 python get_pics.py
 echo -e "\n\nTaking a Breather for 2 secs\n\n"
 sleep 2
-echo -e "\nRunning Stitching script by @swvist"
+echo -e "\nRunning Imagegrid generator script by @swvist"
 python swvist_imagegrid.py
 echo -e "\n\nDone...\n Check for output.jpeg"
 echo -e " \n Thank you"

@@ -6,7 +6,7 @@
 ## Refer              : Goto https://developers.facebook.com/tools/explorer/145634995501895
 ##                      accept permissions and get your access token ans facebook id to 
 ##                      the below fields
-## images_folder_path : To Download images from FB to stitch
+## images_folder_path : To Download images from FB to generate imagegrid
 ## agent              : User agent to mimic a browser request to FB
 ##                      to get images without hassels
 

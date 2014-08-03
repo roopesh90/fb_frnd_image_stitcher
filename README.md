@@ -8,13 +8,13 @@ Daniel Long
 
 A BIG Thank you to all my Friends for being there, It does mean a lot to me. 
 
-This is an Inspired script from [@swvist](https://github.com/swvist)'s [Image stitching script](https://gist.github.com/2692786)
+This is an Inspired script from [@swvist](https://github.com/swvist)'s [Imagegrid generator script](https://gist.github.com/2692786)
 
 It involves two parts:
 ####1. FB Frnds Image Extractor
 - Gets images from Facebook
 
-####2. Image Stitching script by [@swvist](https://github.com/swvist)
+####2. Imagegrid generator script by [@swvist](https://github.com/swvist)
 
 ###Execution Instructions:
 - Get your access token and fb user id from here : [https://developers.facebook.com/tools/explorer/145634995501895](https://developers.facebook.com/tools/explorer/145634995501895)
@@ -42,5 +42,5 @@ Packages used:
 
 PS: all these packages can be used by installing using pip (recommended)
 
-- Note 1    : The Final stitched image will be a square. If the images fall short to fill the square, the rest will be kept Blank
+- Note 1    : The Final stitched Imagegrid generated will be a square. If the images fall short to fill the square, the rest will be kept Blank
 - Note 2    : Am working on a Completion script to fill in blanks
