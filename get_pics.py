@@ -26,6 +26,7 @@
 # do accept the permission, this a test app from FB fro developers,
 # if you do not approve, get in touch @ roopesh90nair@live.com
 
+#You need not modify anything below this line.
 import time
 import urllib
 import urllib2, os
@@ -139,8 +140,8 @@ while continue_2_page:
 			print("\n\t Starting Image aquisition.......")
 			for j in xrange(0, len(data['data'])):
 				get_FB_frn_img(data['data'][j]['id'], "100", "100")
-				print("\n" + str(j) + " Image of " + data['data'][j]['name'].encode('utf-8') + " :id = " + data['data'][j]['id'].encode('utf-8') )
-			
+				print("\n" + str(j) + " Image of " + data['data'][j]['name'].encode('utf-8') + " :id = " + data['data'][j]['id'].encode('utf-8'))
+                
 			if data.has_key("paging"):
 				if data["paging"].has_key("next"):
 					print("\n\tGoing to next page => " + data['paging']['next'])
@@ -161,5 +162,4 @@ hostname = os.popen("hostname").read()
 if hostname == "":
 	hostname = "the system\n"
 print("** These will be removed by the OS automatically later \n** or when " + hostname + "** is switched off")
-print(" \n Thank you")
 print("\n\n Starting ImageStitcher script by @swvist")
