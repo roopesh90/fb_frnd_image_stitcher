@@ -24,7 +24,7 @@
 #after the execution of the script
 
 #settings values added by @roopesh90
-from swist_settings import User
+from user_settings import User
 User = User()
 
 IMAGES_DIRECTORY	=	User.images_folder_path
@@ -64,3 +64,5 @@ for i in range(ROW_IMAGE_COUNT):
 			break
 #Saves the image in IMAGES_DIRECTORY with name output
 out.save(IMAGES_DIRECTORY+"output","JPEG")
+
+print(" \n Images Stitched")
