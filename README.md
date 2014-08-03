@@ -41,4 +41,5 @@ Packages used:
 
 PS: all these packages can be used by installing using pip (recommended)
 
-- Note 1: The Final stitched image will be a square. If the images fall short to fill the square, the rest will be kept Blank
+- Note 1    : The Final stitched image will be a square. If the images fall short to fill the square, the rest will be kept Blank
+- Note 2    : Am working on a Completion script to fill in blanks
