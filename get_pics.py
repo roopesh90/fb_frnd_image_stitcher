@@ -34,7 +34,7 @@ import re
 import datetime
 import socket
 from urlparse import urlparse
-from swist_settings import User
+from user_settings import User
 import facebook
 import gc
 
@@ -122,7 +122,7 @@ if gc.isenabled() == False:
 	print("** Developer note: Auto-garbage collection has been eneabled? =>" + str(gc.isenabled()))
 	print("\n")
 	
-print("\n## \n## FB Frnds Image HYDRA007\n## \n## Copyright (c) Dr.DmC <roopesh90nair@gmail.com>, Roopesh Nair\n##")
+print("\n## \n## FB Frnds Image Stitcher\n## \n## Copyright (c) Dr.DmC <roopesh90nair@gmail.com>, Roopesh Nair\n##")
 print("\n\n\t Fetching friends data from FB\n\t This might take a while\n\n\t Depending on the number \n\t of friends you have and \n\t your internet speed.")
 
 while continue_2_page:
@@ -161,5 +161,5 @@ hostname = os.popen("hostname").read()
 if hostname == "":
 	hostname = "the system\n"
 print("** These will be removed by the OS automatically later \n** or when " + hostname + "** is switched off")
-
 print(" \n Thank you")
+print("\n\n Starting ImageStitcher script by @swvist")
