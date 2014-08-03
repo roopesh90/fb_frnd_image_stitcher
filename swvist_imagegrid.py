@@ -28,10 +28,11 @@ from user_settings import User
 User = User()
 
 IMAGES_DIRECTORY	=	User.images_folder_path
+## To be adjusted by user
 ROW_IMAGE_COUNT		=	33
 COLUMN_IMAGE_COUNT	=	33
 IMAGE_DIMENSION		=	{ "height" : 100, "width" : 100}
-
+## end
 
 #You need not modify anything below this line.
 
