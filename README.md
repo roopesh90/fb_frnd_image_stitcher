@@ -4,18 +4,19 @@ fb_frnd_image_stitcher
 ##A Friendship day Hack
 
 > "Sometime the road through life isn't always a straight line. "
-- Daniel Long
+Daniel Long
 
 A BIG Thank you to all my Friends for being there, It does mean a lot to me. 
 
 This is an Inspired script from [@swvist](https://github.com/swvist)'s [Image stitching script](https://gist.github.com/2692786)
 
 It involves two parts:
-###1. FB Frnds Image Extractor
+####1. FB Frnds Image Extractor
 - Gets images from Facebook
-###2. Image Stitching script by [@swvist](https://github.com/swvist)
 
-##Execution Instructions:
+####2. Image Stitching script by [@swvist](https://github.com/swvist)
+
+###Execution Instructions:
 - Get your access token and fb user id from here : [https://developers.facebook.com/tools/explorer/145634995501895](https://developers.facebook.com/tools/explorer/145634995501895)
 - do accept the permission, this a test app from FB for developers,
 - Modifiy values in the `user_settings.py` file the script running
