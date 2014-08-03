@@ -23,14 +23,9 @@
 #The generated image will be named 'output' and will be in IMAGES_DIRECTORY
 #after the execution of the script
 
-#settings values added by @roopesh90
-from user_settings import User
-User = User()
-
-IMAGES_DIRECTORY	=	User.images_folder_path
 ## To be adjusted by user
-ROW_IMAGE_COUNT		=	33
-COLUMN_IMAGE_COUNT	=	33
+#ROW_IMAGE_COUNT		=	33
+#COLUMN_IMAGE_COUNT	    =	33
 IMAGE_DIMENSION		=	{ "height" : 100, "width" : 100}
 ## end
 
@@ -40,12 +35,29 @@ import os
 import Image
 import random
 
+#modded by @roopesh90
+from user_settings import User
+from math import sqrt
+User = User()
+ROOT_DIRECTORY	=	User.root_folder_path
+IMAGES_DIRECTORY=	User.images_folder_path
+
+def findclosestsquareroot(num):
+    num_sqrt = sqrt(num)
+    num_prev = int(num_sqrt)
+    num_next = int(num_sqrt + 1)
+    sqr_prev = num_prev * num_prev
+    sqr_next = num_next * num_next
+    return num_next
+
 
 #Generates a list with absolute path of all the images in thr IMAGES_DIRECTORY
-piclist = [os.path.join(IMAGES_DIRECTORY,pic) for pic in os.listdir(IMAGES_DIRECTORY)]
+piclist = [os.path.join(IMAGES_DIRECTORY,pic) for pic in os.listdir(IMAGES_DIRECTORY) if pic.endswith(".jpg")]
 
 #Stores the Image Count
 piccount = len(piclist)
+ROW_IMAGE_COUNT		=	findclosestsquareroot(piccount)
+COLUMN_IMAGE_COUNT	=	ROW_IMAGE_COUNT
 
 #Shuffles the Image List (piclist)
 random.shuffle(piclist)
@@ -64,6 +76,6 @@ for i in range(ROW_IMAGE_COUNT):
 		else:
 			break
 #Saves the image in IMAGES_DIRECTORY with name output
-out.save(IMAGES_DIRECTORY+"output","JPEG")
+out.save(ROOT_DIRECTORY+"output.jpeg","JPEG")
 
-print(" \n Images Stitched")
+print(str(piccount)+" Images Stitched")
