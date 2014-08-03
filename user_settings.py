@@ -25,5 +25,3 @@ class User:
         self.agent = "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31"
         self.images_folder_path=IMAGES_ROOT
         self.root_folder_path=PATH(ROOT, '')
-        
-        
