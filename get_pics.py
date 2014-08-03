@@ -122,7 +122,7 @@ if gc.isenabled() == False:
 	print("** Developer note: Auto-garbage collection has been eneabled? =>" + str(gc.isenabled()))
 	print("\n")
 	
-print("\n## \n## FB Frnds Image Stitcher\n## \n## Copyright (c) Dr.DmC <roopesh90nair@gmail.com>, Roopesh Nair\n##")
+print("\n## \n## FB Frnds Image Stitcher\n## \n## Copyright (c) @roopesh90 <roopesh90nair@gmail.com>, Roopesh Nair\n##")
 print("\n\n\t Fetching friends data from FB\n\t This might take a while\n\n\t Depending on the number \n\t of friends you have and \n\t your internet speed.")
 
 while continue_2_page:
