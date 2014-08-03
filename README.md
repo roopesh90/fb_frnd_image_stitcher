@@ -40,3 +40,5 @@ Packages used:
 11. Image
 
 PS: all these packages can be used by installing using pip (recommended)
+
+- Note 1: The Final stitched image will be a square. If the images fall short to fill the square, the rest will be kept Blank
