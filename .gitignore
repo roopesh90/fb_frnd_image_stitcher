@@ -54,3 +54,4 @@ docs/_build/
 
 #images
 *.jp[eg]
+images/output
