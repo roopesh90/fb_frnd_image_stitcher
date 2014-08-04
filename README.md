@@ -4,7 +4,7 @@ fb_frnd_image_stitcher
 ##A Friendship day Hack
 
 > "Sometime the road through life isn't always a straight line. "
-Daniel Long
+- Daniel Long
 
 A BIG Thank you to all my Friends for being there, It does mean a lot to me. 
 
