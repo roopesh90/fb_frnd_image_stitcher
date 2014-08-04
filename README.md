@@ -25,22 +25,22 @@ It involves two parts:
 - Install the Packages below
 - **Thats it**. Done. Just run the shell script as `bash base_shell.sh` and give it time...
 
-** If you have any queries or doubts, put it up on issues. Will get back as soon as possible! :)**
+**If you have any queries or doubts, put it up on issues. Will get back as soon as possible! :)**
 
 Packages used:
-1. time
-2. urllib, urllib2
-3. os, 
-4. json
-5. re
-6. datetime
-7. socket
-8. Facebook python driver (facebook)
-9. python Garbage Collection (gc)
-10. random
-11. Image
+- time
+- urllib, urllib2
+- os, 
+- json
+- re
+- datetime
+- socket
+- Facebook python driver (facebook)
+- python Garbage Collection (gc)
+- random
+- Image
 
 PS: all these packages can be used by installing using pip (recommended)
 
-- Note 1    : The Final stitched Imagegrid generated will be a square. If the images fall short to fill the square, the rest will be kept Blank
-- Note 2    : Am working on a Completion script to fill in blanks
+- **Note 1**    : The Final stitched Imagegrid generated will be a square. If the images fall short to fill the square, the rest will be kept Blank
+- **Note 2**    : Am working on a Completion script to fill in blanks
