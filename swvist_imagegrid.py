@@ -32,7 +32,7 @@ IMAGE_DIMENSION		=	{ "height" : 100, "width" : 100}
 #You need not modify anything below this line.
 
 import os
-import Image
+from PIL import Image
 import random
 
 #modded by @roopesh90
