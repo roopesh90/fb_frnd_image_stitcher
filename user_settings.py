@@ -20,8 +20,8 @@ class User:
         ## This can be ignored, :)
         if(os.path.isfile(PATH(ROOT, 'dev_settings.py'))):
             import dev_settings
-            self.fb_uid = FB_UID
-            self.fb_access_token = FB_ACCESS_TOKEN
+            self.fb_uid = dev_settings.FB_UID
+            self.fb_access_token = dev_settings.FB_ACCESS_TOKEN
         else:
             ## To be adjusted by user
             self.fb_uid = "YOUR_FB_ID"
