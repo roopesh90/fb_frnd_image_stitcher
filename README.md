@@ -15,12 +15,17 @@ A BIG Thank you to all my Friends for being there, It does mean a lot to me.
 This is an Inspired script from [@swvist](https://github.com/swvist)'s [Imagegrid generator script](https://gist.github.com/2692786)
 
 It involves two parts:
-####1. FB Frnds Image Extractor
+#### 1. FB Frnds Image Extractor
 - Gets images from Facebook
 
-####2. Imagegrid generator script by [@swvist](https://github.com/swvist)
+#### 2. Imagegrid generator script by [@swvist](https://github.com/swvist)
 
-###Execution/Setup Instructions:
+#### Prerequisites
+
+- python3
+- virtualenv==13.1.2
+ 
+### Execution/Setup Instructions:
 1. Get your access token and fb user id from here : [https://developers.facebook.com/tools/explorer/145634995501895](https://developers.facebook.com/tools/explorer/145634995501895)
 2. do accept the permission, this a test app from FB for developers,
 3. Modifiy values in the `user_settings.py` file the script running
@@ -44,7 +49,6 @@ Packages used:
 - re
 - datetime
 - socket
-- Facebook python driver (facebook)
 - python Garbage Collection (gc)
 - random
 - Image
