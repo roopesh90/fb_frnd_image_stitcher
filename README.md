@@ -44,7 +44,6 @@ Packages used:
 - re
 - datetime
 - socket
-- Facebook python driver (facebook)
 - python Garbage Collection (gc)
 - random
 - Image
