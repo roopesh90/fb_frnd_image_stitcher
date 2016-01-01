@@ -56,3 +56,4 @@ docs/_build/
 *.jpeg
 *.jpg
 images/output
+dev_settings.py
