@@ -1,7 +1,11 @@
-fb_frnd_image_stitcher
+ fb_frnd_image_stitcher
 ======================
 
-##A Friendship day Hack
+# Broken because of FB's new TOS 
+
+**Only friends who installed this app are returned in API v2.0 and higher. total_count in summary represents the total number of friends, including those who haven't installed the app. [Learn More](https://developers.facebook.com/docs/apps/changelog#v2_0)**
+
+## A Friendship day Hack
 
 > "Sometime the road through life isn't always a straight line. "
 - Daniel Long
